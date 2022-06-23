@@ -55,6 +55,7 @@ export default {
       correctIndex: null,
       shuffledAnswers: [],
       answered: false,
+      ifanswered: [],
     };
   },
 
@@ -115,6 +116,7 @@ export default {
       ) {
         answerClass = "incorrect";
       }
+
       return answerClass;
     },
   },
